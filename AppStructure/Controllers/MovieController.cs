@@ -13,7 +13,7 @@ namespace AppStructure.Controllers
             //result.Content = $"movie with id = {id}";
             //result.ContentType = "object/pdf" ;
             //result.StatusCode = 200 ;
-            //return result ;
+            
 
             return Content($"movie with id = {id}" , "txt/html") ; //==> helper method  
         }
