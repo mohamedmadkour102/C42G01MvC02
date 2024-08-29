@@ -1,0 +1,28 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false, // لو خليناها ب ترو كده كاني بقوله لازم اللي يأكسس الويبسايت بتاعي لازم يكون اليوزر اللي على السيرفر 
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:20334",
+      "sslPort": 44310 // بتاع ال https
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "AppStructure": {
+      "commandName": "Project", // لو عايز اعمل ران للاب ب استخدام الكونسول 
+      "dotnetRunMessages": "true",
+      "launchBrowser": true, // كاني بقول انه بعد ما يعمل ديبلوي يروح يعمل ران 
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
